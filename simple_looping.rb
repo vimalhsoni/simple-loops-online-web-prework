@@ -1,13 +1,15 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
+counter = 0
   loop do
-    counter = number_of_times
     phrase = "Welcome"
     puts phrase
-if counter >= number_of_times
+    counter += 1
+if counter == number_of_times
     break
   end
+end
 end
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer
